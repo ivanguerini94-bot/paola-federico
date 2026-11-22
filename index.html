@@ -131,6 +131,9 @@
   .telefono { width: min(380px, 86vw); margin: 40px auto 0; border-radius: 34px; padding: 10px; background: #1a1716;
               border: 1px solid var(--line); box-shadow: 0 40px 100px rgba(0,0,0,.6), 0 0 0 1px rgba(255,90,60,.08); }
   .telefono video { width: 100%; aspect-ratio: 9/16; border-radius: 26px; display: block; background: #000; object-fit: cover; }
+  .schermo { width: min(1000px, 100%); margin: 40px auto 0; border-radius: 22px; padding: 8px; background: #1a1716;
+             border: 1px solid var(--line); box-shadow: 0 40px 100px rgba(0,0,0,.6), 0 0 0 1px rgba(255,90,60,.08); }
+  .schermo video { width: 100%; aspect-ratio: 16/9; border-radius: 16px; display: block; background: #000; }
   .scarica { display: inline-block; margin-top: 22px; color: var(--muted); font-size: 13px; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; }
   .scarica:hover { color: var(--ink); }
   @media (max-width: 760px) {
@@ -198,12 +201,12 @@
   <div class="wrap">
     <div class="eyebrow rv">Per te</div>
     <h2 class="rv d1">Alza il <em>volume</em>.</h2>
-    <div class="telefono rv d2">
-      <video controls playsinline preload="metadata" poster="img/poster_verticale.jpg">
-        <source src="video/auguri_9x16.mp4" type="video/mp4">
+    <div class="schermo rv d2">
+      <video controls playsinline preload="metadata" poster="img/poster_auguri.jpg">
+        <source src="video/auguri_16x9.mp4" type="video/mp4">
       </video>
     </div>
-    <a class="scarica rv" href="video/auguri_9x16.mp4" download>Scarica il video ↓</a>
+    <a class="scarica rv" href="video/auguri_16x9.mp4" download>Scarica il video ↓</a>
   </div>
 </section>
 
